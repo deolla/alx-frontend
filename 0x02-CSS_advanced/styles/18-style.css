@@ -489,3 +489,10 @@ a:active {
 .footer {
   padding: var(--footer-padding);
 }
+
+
+/********************** Navigation Bar *******************/
+
+.navbar-menu {
+  float: right;
+}
