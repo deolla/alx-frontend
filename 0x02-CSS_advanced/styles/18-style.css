@@ -519,5 +519,5 @@ a:active {
 }
 
 nav .nav-link:hover {
-  color: var(--color-primary);
+  color: var(--nav-item-link-hover);
 }
