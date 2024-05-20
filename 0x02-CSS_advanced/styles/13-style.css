@@ -43,37 +43,12 @@ body {
     line-height: var(--line-height-base);
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
 
-h2 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-h3 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-h4 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-h5 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-a.hyperlink {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -87,7 +62,7 @@ a:hover {
 }
 
 a:active {
-    background: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
 
