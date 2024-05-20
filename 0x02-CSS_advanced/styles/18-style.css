@@ -395,13 +395,13 @@ template {
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0  3rem;
+  --nav-item-margin: 0 0 3rem;
   --nav-item-link-hover: var(--color-primary);
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -500,7 +500,7 @@ a:active {
 }
 
 .nav {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
