@@ -692,7 +692,7 @@ ul.row {
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 0.5;
+  opacity: 0;
   height: 100%;
   position: relative;
 }
