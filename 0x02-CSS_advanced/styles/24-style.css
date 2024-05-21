@@ -581,8 +581,8 @@ ul.row {
 
 
 /*================== Cards Services =================*/
-.card-title .card-services {
-  margin: 0;
+.card-services .card-title {
+  margin: none;
 }
 
 .card-services a {
