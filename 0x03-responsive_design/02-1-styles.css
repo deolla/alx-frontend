@@ -330,7 +330,7 @@ a:active {
   white-space: nowrap;
 }
 
-main .img {
+main img {
   width: 100%;
   height: auto;
 }
@@ -371,23 +371,26 @@ ul.row {
   width: calc((100% / 2) - 2rem);
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   :root {
     --section-padding: 5rem 1.5rem;
     --section-body-padding: 2rem 0 0;
   }
 
-  ul.row, .row {
+  ul.row,
+  .row {
     flex-direction: column;
     margin: 0;
   }
+
   [class^="col-"] {
     margin: 0 0 3rem 0;
   }
-  .col-1-3 .col-1-2 {
+
+  .col-1-3,
+  .col-1-2 {
     width: 100%;
   }
-
 }
 
 /* Navbar
@@ -584,7 +587,7 @@ ul.row {
 }
 
 @media screen and (max-width: 767px) {
-  section-latest-news .row {
+  .section-latest-news .row {
     flex-direction: column;
   }
 }
